@@ -7,3 +7,11 @@ const rollNumbers = [12, 23, 23];
 //rollNumbers[4]="error"-it's an error
 let user = [123, "userName"];
 //user[0]="error"   not possible
+const person = {
+    name: "Person one ",
+    age: 30,
+    graduated: true
+};
+// Object destructuring
+const { name, age } = person;
+console.log(name);
