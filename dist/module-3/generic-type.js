@@ -1,23 +1,37 @@
 "use strict";
+// export { }
+// type GenericArray<T> = Array<T>
+// // tuple
+// type GenericTuple<x, y> = [x, y]
+// const relation: GenericTuple<string, string> = ['persian', 'kate winslet']
 Object.defineProperty(exports, "__esModule", { value: true });
-const relation = ['persian', 'kate winslet'];
-const relationWithSalary = [{
-        name: "Persian",
-        salary: 2000
-    },
-    "kate winslet"
-];
-const rollNumbers = [22, 34, 53, 53];
-// const rollNumbers: Array<number> = [22, 34, 53, 53]
-const rollNumber2 = ['23', '33'];
-// const rollNumber2: Array<string> = ['23', '33']
-const rollNumber3 = [true, false];
-const userNameAndRollNumbers = [{
-        name: "x",
-        roll: 12
-    },
-    {
-        name: "y",
-        roll: 23
-    }
-];
+const arr = [12, 34, 34];
+const arr2 = [12, 34, 34];
+const roll1 = ['1', '2'];
+const roll2 = [1, 2];
+const roll3 = [true, false];
+const roll4 = [{
+        name: 1,
+        roll: 1
+    }];
+const nassimRaihan = {
+    name: 12,
+    ex: false,
+    ps: "ps"
+};
+console.log(arr);
+const MehediOne = {
+    deg: "developer",
+    exp: 5,
+    isMarried: false
+};
+const MehediTwo = {
+    deg: "developer",
+    exp: 5,
+    isMarried: {}
+};
+const Mehedithree = {
+    deg: "developer",
+    exp: "adfafdasfd",
+    isMarried: false
+};
